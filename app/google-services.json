@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846586152580",
+    "firebase_url": "https://faceregisterapp.firebaseio.com",
+    "project_id": "faceregisterapp",
+    "storage_bucket": "faceregisterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846586152580:android:f1ad2a84505beb1a",
+        "android_client_info": {
+          "package_name": "com.face.register.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846586152580-5ml7i01s4s6gi92m3p4t2p30boc7e42o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXtTKNa7gJw5KrofBCxyb3QNHQ-3MtDW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846586152580-5ml7i01s4s6gi92m3p4t2p30boc7e42o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

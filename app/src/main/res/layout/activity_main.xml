@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:foreground="@drawable/oval_face"
+    android:orientation="horizontal">
+
+    <com.faceregister.app.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.faceregister.app.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.faceregister.app.CameraSourcePreview>
+
+    <com.faceregister.app.OverlayView
+        android:id="@+id/overlay_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="3"
+        android:textColor="#FAF7F7"
+        android:textSize="96sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivAutoFocus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_autofocus"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/ibSwitch"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="15dp"
+        android:contentDescription="@null"
+        android:src="@drawable/camera_switch"
+        android:visibility="visible" />
+
+</FrameLayout>

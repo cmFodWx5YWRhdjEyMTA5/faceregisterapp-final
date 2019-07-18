@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">846586152580-5ml7i01s4s6gi92m3p4t2p30boc7e42o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://faceregisterapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">846586152580</string>
+    <string name="google_api_key" translatable="false">AIzaSyCXtTKNa7gJw5KrofBCxyb3QNHQ-3MtDW8</string>
+    <string name="google_app_id" translatable="false">1:846586152580:android:f1ad2a84505beb1a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCXtTKNa7gJw5KrofBCxyb3QNHQ-3MtDW8</string>
+    <string name="google_storage_bucket" translatable="false">faceregisterapp.appspot.com</string>
+    <string name="project_id" translatable="false">faceregisterapp</string>
+</resources>
